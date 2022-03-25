@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".View.Fragment.ExploreFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarExplorer"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="#ffffff"
+        app:theme="?attr/actionBarTheme" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_anchor="@id/toolbar_Tour"
+        app:layout_anchorGravity="bottom|end"
+        >
+
+        <EditText
+            android:id="@+id/etSearchService"
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:ems="10"
+            android:hint="Type a service name here"
+            android:inputType="textPersonName"
+            android:padding="10sp" />
+
+        <Button
+            android:id="@+id/btCancleSearchService"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/ic_x_cross"
+            android:paddingTop="7dp"
+            android:visibility="invisible"
+            />
+
+        <Button
+            android:id="@+id/btSearchService"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/ic_search"
+            android:paddingTop="5dp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_Explorer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="12dp" />
+
+
+    <!--
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view_tourhistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="?android:attr/windowBackground"
+        app:menu="@menu/bottom_nav_menu" />
+        -->
+
+</LinearLayout>

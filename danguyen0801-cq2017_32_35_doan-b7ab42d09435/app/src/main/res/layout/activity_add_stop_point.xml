@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".View.AddStopPointActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarCreateStopPoint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:navigationIcon="@drawable/back_arrow"
+        app:titleTextColor="#ffffff" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvName_CreateStopPoint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="10dp"
+                android:text="Stop point name"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etName_CreateStopPoint"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginRight="32dp"
+                android:background="@drawable/rounded_border_edittext"
+                android:textCursorDrawable="@null"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:padding="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvAddr_CreateStopPoint"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:text="Stop point location"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp" >
+
+                <TextView
+                    android:id="@+id/et_Addr_StopPoint"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="4"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/rounded_border_edittext"
+                    android:textCursorDrawable="@null"
+                    android:padding="10dp"
+                    android:fadingEdge = "horizontal"
+                    android:ellipsize = "marquee"
+                    android:marqueeRepeatLimit = "marquee_forever"
+                    android:scrollHorizontally = "true"
+                    android:singleLine = "true"
+                    android:textSize="14sp"
+                    android:focusable="false"
+                    />
+
+                <Button
+                    android:id="@+id/b_Point_CreateStopPoint"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:text="📍" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvMinCost_CreateStopPoint"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="10dp"
+                    android:text="@string/ct_min_cost"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tvMaxCost_CreateStopPoint"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/ct_max_cost"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/etMinCost_CreateStopPoint"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/rounded_border_edittext"
+                    android:textCursorDrawable="@null"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:padding="10dp"/>
+
+                <EditText
+                    android:id="@+id/etMaxCost_CreateStopPoint"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/rounded_border_edittext"
+                    android:textCursorDrawable="@null"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:padding="10dp"/>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvArrival_CreateStopPoint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:text="Arrival at:"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/etArrival_CreateStopPoint"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded_border_edittext"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:padding="10dp"
+                    android:textCursorDrawable="@null"
+                    android:focusable="false"/>
+
+                <ImageButton
+                    android:id="@+id/btArrival_CreateStopPoint"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/ic_calendar"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvLeave_CreateStopPoint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:text="Leave at:"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/etLeave_CreateStopPoint"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded_border_edittext"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:padding="10dp"
+                    android:textCursorDrawable="@null"
+                    android:focusable="false"/>
+
+                <ImageButton
+                    android:id="@+id/btLeave_CreateStopPoint"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/ic_calendar" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp">
+
+                <TextView
+                    android:id="@+id/tvType_CreateStopPoint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20sp"
+                    android:text="Service type:"
+                    />
+
+                <Spinner
+                    android:id="@+id/sType_CreateStopPoint"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded_border_spinner_dropdown"
+                    android:spinnerMode="dropdown" />
+
+            </LinearLayout>
+
+
+
+            <Button
+                android:id="@+id/bImage_CreateStopPoint"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginRight="32dp"
+                android:padding="10dp"
+                android:text="Select a stop point image"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/ivImage_CreateStopPoint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center_vertical"
+                android:visibility="gone"
+                app:srcCompat="@android:drawable/btn_dialog"
+                />
+
+
+            <Button
+                android:id="@+id/bCreateStopPoint"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/rounded_corner_button"
+                android:text="Create Stop Point"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

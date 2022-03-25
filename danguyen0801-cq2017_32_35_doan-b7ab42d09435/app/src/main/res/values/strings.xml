@@ -1,0 +1,142 @@
+<resources>
+    <!--    Template: <string name=""></string> -->
+    <string name="app_name">Travel Assistant</string>
+    <string name="email_phone">Your email/phone number&#8230;</string>
+    <string name="password">Your password&#8230;</string>
+    <string name="ask_sign_in">Please sign in</string>
+    <string name="sign_in">Sign In</string>
+    <string name="ask_sign_up">Don\'t have an account?</string>
+    <string name="ask_password">Forgot password?</string>
+    <string name="or">Or&#8230;</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="su_full_name">Full name</string>
+    <string name="su_email">Email(*)</string>
+    <string name="su_phone">Phone number(*)</string>
+    <string name="su_address">Address</string>
+    <string name="su_dob">Date of birth</string>
+    <string name="su_gender">Gender</string>
+    <string name="su_gender_male">Male</string>
+    <string name="su_gender_female">Female</string>
+    <string name="su_password">Password(*)</string>
+    <string name="su_confirm">Confirm password(*)</string>
+    <string name="su_msg">(*) fields are required</string>
+    <string name="forgot_password_msg">Select an option to retrieve your password</string>
+    <string name="option_sms">Via SMS</string>
+    <string name="option_email">Via Email</string>
+    <string name="submit">Submit</string>
+    <string name="process">Please wait</string>
+    <string name="tour_list_title">Tour list</string>
+    <string name="ct_name">Tour name(*)</string>
+    <string name="ct_start_date">Start date(*)</string>
+    <string name="ct_end_date">End date(*)</string>
+    <string name="ct_adults">Adults</string>
+    <string name="ct_childs">Children</string>
+    <string name="ct_min_cost">Minimum cost</string>
+    <string name="ct_max_cost">Maximum cost</string>
+    <string name="ct_image">Select a tour image</string>
+    <string name="ct_private">Private: </string>
+    <string name="ct_startp">Choose start location(*)</string>
+    <string name="ct_endp">Choose end location(*)</string>
+    <string name="create_tour">Create tour</string>
+    <string name="cost_range">Price range:</string>
+    <string name="duration">Duration:</string>
+    <string name="avatar">Avatar</string>
+    <string name="ask_sign_out">Sign out?</string>
+    <string name="user_info">Your information</string>
+    <string name="user_email">Email address</string>
+    <string name="user_phone">Phone number</string>
+    <string name="tour_info">Details</string>
+    <string name="tour_cmt">Comments</string>
+    <string name="tour_cmt_hint">Write a comment&#8230;</string>
+
+    <string name="te_name">Tour name</string>
+    <string name="te_start_date">Start date</string>
+    <string name="te_end_date">End date</string>
+    <string name="te_startp">Start location</string>
+    <string name="te_endp">End location</string>
+    <string name="save_edit_tour">Save</string>
+    <string name="rv_rate">Rate this tour</string>
+    <string name="member">Members</string>
+    <string name="rv_msg">Write something</string>
+    <string name="rv_rate_n_review">Ratings and reviews</string>
+    <string name="tour_rv_hint">Write a review&#8230;</string>
+
+    <string name="error_password_invalid">Invalid password</string>
+    <string name="error_email_invalid">Invalid email</string>
+    <string name="error_email_empty">Email cannot be empty</string>
+    <string name="error_phone_empty">Phone number cannot be empty</string>
+    <string name="error_phone_invalid">Invalid number</string>
+    <string name="error_password_not_matched">Password didn\'t match. Try again</string>
+
+    <string name="error_login_bad_request">Wrong email/phone or password</string>
+    <string name="error_login_not_found">Wrong email/phone or password</string>
+    <string name="error_login_unknown">Unknown error, code: %d, please try again.</string>
+    <string name="login_processing">Logging in, please wait</string>
+    <string name="login_failed">Login failed, message: </string>
+    <string name="login_3rd_pt_failed">Login by google/facebook failed</string>
+    <string name="login_3rd_pt_server_error">Server error: Error update or insert user</string>
+
+    <string name="sign_up_failed">Sign up failed, message: </string>
+    <string name="sign_up_processing">Signing up, please wait</string>
+    <string name="sign_up_succeeded">Signed up succeeded</string>
+    <string name="error_sign_up_dub_email">Email is already registered</string>
+    <string name="error_sign_up_dub_phone">Phone number is already registered</string>
+    <string name="error_sign_up_unavailable">Server error on creating user</string>
+
+    <string name="facebook_app_id">558241611653597</string>
+    <string name="fb_login_protocol_scheme">fb558241611653597</string>
+    <string name="server_client_id">301994720770-n2q45dl4k2apblm9n8e3ctmsmkbhmiau.apps.googleusercontent.com</string>
+
+    <string name="get_tour_loading">Getting tour list, please wait</string>
+    <string name="get_tour_failed">Server error on getting tour list</string>
+
+    <string name="password_recovery">11</string>
+    <string name="password_recovery_mess">A recovery code have been sent to </string>
+    <string name="password_recovery_hint">Recovery code</string>
+
+    <string name="password_reset_pass">Enter your new password:</string>
+    <string name="password_reset_OTP">Enter your OTP code:</string>
+    <string name="password_reset_pass_confirm">Confirm your new password:</string>
+    <string name="password_reset_pass_reset">Reset Password</string>
+
+    <string name="create_tour_loading">Creating tour, please wait</string>
+    <string name="create_tour_error_name_empty">Name cannot be empty</string>
+    <string name="create_tour_error_start_date_empty">Start date cannot be empty</string>
+    <string name="create_tour_error_end_date_empty">End date cannot be empty</string>
+    <string name="create_tour_error_server_error">Server error on creating tour</string>
+    <string name="title_activity_google_maps">Map</string>
+    <string name="google_maps_key">AIzaSyBjPWpnHUsJ11SdrJScK7HGiX8QOoKu8pw</string>
+    <string name="title_activity_google_map_point_picker">Map</string>
+
+    <string name="add_stop_point_loading">Adding stop point, please wait</string>
+    <string name="add_stop_point_error_name_empty">Name cannot be empty</string>
+    <string name="add_stop_point_error_arrive_leave_empty">Arrival/leaving time cannot be empty</string>
+    <string name="add_stop_point_error_addr_empty">Address cannot be empty</string>
+
+    <string name="update_tour">Update tour</string>
+    <string name="status">Status:</string>
+    <string name="update_tour_name">Tour name</string>
+    <string name="update_tour_loading">Updating tour, please wait</string>
+
+    <string name="contact">Contact</string>
+    <string name="service_type">Service type:</string>
+
+    <string name="update_stop_point_loading">Updating stop point, please wait</string>
+
+    <string name="none_given_info">None given</string>
+
+    <string name="manage_password">Manage your password</string>
+    <string name="current_password">Current password&#8230;</string>
+    <string name="new_password">New password&#8230;</string>
+    <string name="confirm_password">Confirm new password&#8230;</string>
+
+    <string name="pw_error">This field cannot be empty</string>
+    <string name="pw_conf_error">Does not match!</string>
+    <string name="pw_mng">Updating password&#8230;</string>
+    <string name="cur_pw_error">Wrong password</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tour_progress">Map</string>
+
+</resources>

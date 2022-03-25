@@ -1,0 +1,119 @@
+StrugVN - message: fix bug
+StrugVN - message: fix adapter stop point
+StrugVN - message: Merge branch 'master' of https://bitbucket.org/danguyen0801/cq2017_32_35_doan
+Trường Nguyễn - message: Revert "Fix bug nút Delete Tour"
+StrugVN - message: Revert "Fix bug nút Delete Tour"
+Trường Nguyễn - message: Fix bug nút Delete Tour
+StrugVN - message: chỉnh nhẹ flow phần tạo tour
+StrugVN - message: Thêm tìm kiếm service | Thêm các stop point ở màn hình theo dõi
+StrugVN - message: Thêm hiển thị vị trí và cập nhập liên tục 10s
+StrugVN - message: Thêm gửi Noti on road | gửi text noti | nhận text noti
+Trường Nguyễn - message: Update password người dùng
+StrugVN - message: Merge branch 'master' of https://bitbucket.org/danguyen0801/cq2017_32_35_doan
+StrugVN - message: Thêm màn hình theo dõi tour + lấy cái Noti On Road
+Trường Nguyễn - message: Lấy service info, lấy service feedback, gửi feedback cho service, lấy thông số feedback
+Trường Nguyễn - message: Load suggested destination (màn hình explore)
+StrugVN - message: Thêm delete Tour
+Trường Nguyễn - message: Layout service, ServiceInfoActivity
+StrugVN - message: Merge branch 'master' of https://bitbucket.org/danguyen0801/cq2017_32_35_doan
+StrugVN - message: Thêm Invitation adapter | Load các lời mời | Xử lí chấp nhận/từ chối | layout lời mời
+Trường Nguyễn - message: Thông tin điểm dừng & Chỉnh sửa điểm dừng & Gửi đánh giá dịch vụ & Danh sách đánh giá dịch vụ
+ThuyUyen - message: Api clone a tour
+ThuyUyen - message: Merge branch 'master' of https://bitbucket.org/danguyen0801/cq2017_32_35_doan
+ThuyUyen - message: Add member
+StrugVN - message: Merge branch 'master' of https://bitbucket.org/danguyen0801/cq2017_32_35_doan
+StrugVN - message: Thêm tìm kiếm tour
+ThuyUyen - message: Merge branch 'master' of https://bitbucket.org/danguyen0801/cq2017_32_35_doan
+ThuyUyen - message: Api search user
+StrugVN - message: Minor fix: Chế độ host/guest ở tour info
+ThuyUyen - message: Merge branch 'master' of https://bitbucket.org/danguyen0801/cq2017_32_35_doan
+ThuyUyen - message: Api Search User
+StrugVN - message: Fix layout search + stoppoint info
+StrugVN - message: Merge branch 'master' of https://bitbucket.org/danguyen0801/cq2017_32_35_doan
+StrugVN - message: Thêm layout thông tin stop point (service)
+Trường Nguyễn - message: Update tour
+StrugVN - message: Chuyển sơ cái nút ở tour info
+StrugVN - message: Fix Stop point thiếu serviceTypeId | Fix + improve Stop point view | improve Stop point adapter |
+Trường Nguyễn - message: Add/Delete stop point
+StrugVN - message: Thêm Utitlity tìm provinceId từ địa chỉ
+StrugVN - message: Thêm địa điểm hiện tại ng dùng | Adapter cho user view | Nút add member -> Search view -> user view cho listview | Fragment màn hình Explore (Kèm icon, điều hướng botnavbar)
+StrugVN - message: Thêm: DS review; send review | Thêm gợi ý điểm dừng (GoogleMapActivity) | Thêm nút add stop point | Thêm layout add stop point |
+Trường Nguyễn - message: Load tên Stop point lên Tour Info
+StrugVN - message: Thêm Date Picker ở tạo account; Fix bug ở Date/DateTimePicker; Thêm flow tắt ct ở MainScreen; Sửa các avatar default; Dọn code
+StrugVN - message: Thêm update user info
+StrugVN - message: Update tour history, Tour info: thêm api các member trong tour
+Trường Nguyễn - message: Tour review
+Trường Nguyễn - message: TourHistoryAdapter
+Trường Nguyễn - message: Update layout tour info
+StrugVN - message: Marquee những cái tv chứa địa chỉ
+Trường Nguyễn - message: Stop point view + update layout tour info, comment view
+Trường Nguyễn - message: Member - Review Adapter, Tour Info và Activity Review
+StrugVN - message: Merge branch 'master' of https://bitbucket.org/danguyen0801/cq2017_32_35_doan
+StrugVN - message: Thêm api gửi comment lên tour, Thay mở hết comment = nested scroll
+ThuyUyen - message: API Tour History
+StrugVN - message: Tour info: Fix scroll view, thêm phần thu gọn, kéo dài comment
+StrugVN - message: Xóa nút ở listview tour - Lí do: Bug setOnItemClick
+StrugVN - message: Merge branch 'master' of https://bitbucket.org/danguyen0801/cq2017_32_35_doan
+StrugVN - message: Thêm load avatar cho tour, user. Thêm update user avatar. Thêm chọn hình -> avatar tour, user
+Trường Nguyễn - message: Layout Edit, Info, Review Tour
+StrugVN - message: Merge branch 'master' of https://bitbucket.org/danguyen0801/cq2017_32_35_doan
+StrugVN - message: thêm refesh tour list
+ThuyUyen - message: Api va Activity cho TourInfo
+ThuyUyen - message: Merge branch 'master' of https://bitbucket.org/danguyen0801/cq2017_32_35_doan
+ThuyUyen - message: Update request, response
+StrugVN - message: Load Tour info (trừ member, comment)
+StrugVN - message: Thêm Notification fragment, xóa các activity đã chuyển fragment, fix bug
+StrugVN - message: Thêm API user info, chuyển toàn tour list, tour history, user info activity -> fragment
+Trường Nguyễn - message: Edit màu trong style và hình blank
+StrugVN - message: chỉnh style picker
+StrugVN - message: Merge branch 'master' of https://bitbucket.org/danguyen0801/cq2017_32_35_doan
+StrugVN - message: Thêm datepicker, timepicker
+Trường Nguyễn - message: TourInfoActivity
+ThuyUyen - message: merge commit
+ThuyUyen - message: file response, request, api..
+StrugVN - message: Thêm trang tour history và bottom nav bar item tương ứng
+StrugVN - message: merge 2 commit trước
+StrugVN - message: Fix class user + reset mk + tìm user
+ThuyUyen - message: Tao cac file response, request cua Tour
+Trường Nguyễn - message: Layout User Info và update layout tour list
+ThuyUyen - message: Update User, searchUserRequest, searchUserResponse, passWordReset,passWordResetRequest
+Trường Nguyễn - message: Update tour view và layout các activity khác
+StrugVN - message: Update layout reset password cho phù hợp api, thêm custom alertdialog báo lỗi
+ThuyUyen - message: Merge branch 'master' of https://bitbucket.org/danguyen0801/cq2017_32_35_doan
+ThuyUyen - message: API Password va cac file request, response, update UserService
+StrugVN - message: Sửa lấy điểm bđ, kt của create tour
+StrugVN - message: Thêm bottom nagivator bar
+StrugVN - message: Thêm layout reset mật khẩu
+StrugVN - message: Thêm point picker, tìm địa điểm hoạt động, gợi ý tìm địa điểm
+StrugVN - message: chỉnh tìm địa điểm
+StrugVN - message: thêm tìm địa điểm
+StrugVN - message: Thêm Google Map API
+ThuyUyen - message: tạo request, response tour, tạo tour; viết activity, viết API tour
+StrugVN - message: Fix login facebook; Thêm phần lấy tour list; cải tiến login, signup, listview của tour; Fix bugs
+Trường Nguyễn - message: Update SDK tối thiểu + Layout tạo tour + Chỉnh sửa các layout cũ
+StrugVN - message: Fix crash + lấy được token của google
+StrugVN - message: Thêm đăng nhập facebook
+StrugVN - message: Thêm đăng nhập google
+StrugVN - message: Thêm mục đăng kí và chỉnh sửa. Thêm custom progress dialog
+Trường Nguyễn - message: Tour Adapter
+Trường Nguyễn - message: Class Tour
+Trường Nguyễn - message: Update Sign up Activity
+Trường Nguyễn - message: Chỉnh sign up activity
+StrugVN - message: Thêm basic login request
+Trường Nguyễn - message: Progress Bar
+Trường Nguyễn - message: Gói file .java của activity
+Trường Nguyễn - message: Chỉnh layout Activity Đăng ký
+Trường Nguyễn - message: Layout Forgot Password và liên kết các Activity
+Trường Nguyễn - message: Layout Sign UP
+Trường Nguyễn - message: Project và layout Sign In
+Trường Nguyễn - message: Create README.md
+Trường Nguyễn - message: Test git Android Studio
+Trường Nguyễn - message: Revert "Tạo project và layout cho đăng nhập"
+Trường Nguyễn - message: Tạo project và layout cho đăng nhập
+Trường Nguyễn - message: Update README.md
+StrugVN - message: Test
+Tran Minh Tri - message: README.md edited online with Bitbucket
+ThuyUyen - message: update2 information
+ThuyUyen - message: update1 information
+ThuyUyen - message: update information
+Dang Thi Thuy Uyen - message: Initial commit

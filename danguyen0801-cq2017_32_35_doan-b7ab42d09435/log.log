@@ -1,0 +1,108 @@
+1f02666 was StrugVN, 41 minutes ago, message: Merge branch 'master' of https://bitbucket.org/danguyen0801/cq2017_32_35_doan
+1bc3616 was StrugVN, 41 minutes ago, message: Thêm màn hình theo dõi tour + lấy cái Noti On Road
+34e9ac5 was Trường Nguyễn, 64 minutes ago, message: Lấy service info, lấy service feedback, gửi feedback cho service, lấy thông số feedback
+727573e was Trường Nguyễn, 7 hours ago, message: Load suggested destination (màn hình explore)
+72a1eee was StrugVN, 7 hours ago, message: Thêm delete Tour
+a16187d was Trường Nguyễn, 9 hours ago, message: Layout service, ServiceInfoActivity
+63855a7 was StrugVN, 19 hours ago, message: Merge branch 'master' of https://bitbucket.org/danguyen0801/cq2017_32_35_doan
+e9f62b1 was StrugVN, 19 hours ago, message: Thêm Invitation adapter | Load các lời mời | Xử lí chấp nhận/từ chối | layout lời mời
+7fdb6b6 was Trường Nguyễn, 19 hours ago, message: Thông tin điểm dừng & Chỉnh sửa điểm dừng & Gửi đánh giá dịch vụ & Danh sách đánh giá dịch vụ
+6539bac was ThuyUyen, 23 hours ago, message: Api clone a tour
+42a9298 was ThuyUyen, 27 hours ago, message: Merge branch 'master' of https://bitbucket.org/danguyen0801/cq2017_32_35_doan
+dcfd688 was ThuyUyen, 27 hours ago, message: Add member
+571c600 was StrugVN, 29 hours ago, message: Merge branch 'master' of https://bitbucket.org/danguyen0801/cq2017_32_35_doan
+d8f77fb was StrugVN, 29 hours ago, message: Thêm tìm kiếm tour
+e4abd70 was ThuyUyen, 32 hours ago, message: Merge branch 'master' of https://bitbucket.org/danguyen0801/cq2017_32_35_doan
+4744ed4 was ThuyUyen, 32 hours ago, message: Api search user
+7ac538f was StrugVN, 33 hours ago, message: Minor fix: Chế độ host/guest ở tour info
+0d077bb was ThuyUyen, 33 hours ago, message: Merge branch 'master' of https://bitbucket.org/danguyen0801/cq2017_32_35_doan
+41366e9 was ThuyUyen, 33 hours ago, message: Api Search User
+3be56ca was StrugVN, 34 hours ago, message: Fix layout search + stoppoint info
+b2eef23 was StrugVN, 2 days ago, message: Merge branch 'master' of https://bitbucket.org/danguyen0801/cq2017_32_35_doan
+49bd117 was StrugVN, 2 days ago, message: Thêm layout thông tin stop point (service)
+9d534d3 was Trường Nguyễn, 2 days ago, message: Update tour
+34dd46b was StrugVN, 2 days ago, message: Chuyển sơ cái nút ở tour info
+8215e1a was StrugVN, 2 days ago, message: Fix Stop point thiếu serviceTypeId | Fix + improve Stop point view | improve Stop point adapter |
+cf050c3 was Trường Nguyễn, 2 days ago, message: Add/Delete stop point
+4f6510d was StrugVN, 2 days ago, message: Thêm Utitlity tìm provinceId từ địa chỉ
+76b3210 was StrugVN, 3 days ago, message: Thêm địa điểm hiện tại ng dùng | Adapter cho user view | Nút add member -> Search view -> user view cho listview | Fragment màn hình Explore (Kèm icon, điều hướng botnavbar)
+5ba6350 was StrugVN, 3 days ago, message: Thêm: DS review; send review | Thêm gợi ý điểm dừng (GoogleMapActivity) | Thêm nút add stop point | Thêm layout add stop point |
+ab756e3 was Trường Nguyễn, 3 days ago, message: Load tên Stop point lên Tour Info
+02c413e was StrugVN, 4 days ago, message: Thêm Date Picker ở tạo account; Fix bug ở Date/DateTimePicker; Thêm flow tắt ct ở MainScreen; Sửa các avatar default; Dọn code
+3ddd0b0 was StrugVN, 5 days ago, message: Thêm update user info
+726b57c was StrugVN, 8 days ago, message: Update tour history, Tour info: thêm api các member trong tour
+d70c757 was Trường Nguyễn, 8 days ago, message: Tour review
+b247648 was Trường Nguyễn, 8 days ago, message: TourHistoryAdapter
+66c3443 was Trường Nguyễn, 8 days ago, message: Update layout tour info
+51bf036 was StrugVN, 8 days ago, message: Marquee những cái tv chứa địa chỉ
+874f060 was Trường Nguyễn, 8 days ago, message: Stop point view + update layout tour info, comment view
+4948eb4 was Trường Nguyễn, 9 days ago, message: Member - Review Adapter, Tour Info và Activity Review
+a110a7f was StrugVN, 9 days ago, message: Merge branch 'master' of https://bitbucket.org/danguyen0801/cq2017_32_35_doan
+7f5f340 was StrugVN, 9 days ago, message: Thêm api gửi comment lên tour, Thay mở hết comment = nested scroll
+11928b2 was ThuyUyen, 9 days ago, message: API Tour History
+2e34a4e was StrugVN, 9 days ago, message: Tour info: Fix scroll view, thêm phần thu gọn, kéo dài comment
+42d44e6 was StrugVN, 9 days ago, message: Xóa nút ở listview tour - Lí do: Bug setOnItemClick
+64f4234 was StrugVN, 9 days ago, message: Merge branch 'master' of https://bitbucket.org/danguyen0801/cq2017_32_35_doan
+1ba3c9f was StrugVN, 9 days ago, message: Thêm load avatar cho tour, user. Thêm update user avatar. Thêm chọn hình -> avatar tour, user
+661ac37 was Trường Nguyễn, 9 days ago, message: Layout Edit, Info, Review Tour
+9d4bc38 was StrugVN, 10 days ago, message: Merge branch 'master' of https://bitbucket.org/danguyen0801/cq2017_32_35_doan
+ab9b9e1 was StrugVN, 10 days ago, message: thêm refesh tour list
+7eb0798 was ThuyUyen, 10 days ago, message: Api va Activity cho TourInfo
+d12eae2 was ThuyUyen, 10 days ago, message: Merge branch 'master' of https://bitbucket.org/danguyen0801/cq2017_32_35_doan
+ebe7aec was ThuyUyen, 10 days ago, message: Update request, response
+0951d68 was StrugVN, 10 days ago, message: Load Tour info (trừ member, comment)
+f579147 was StrugVN, 10 days ago, message: Thêm Notification fragment, xóa các activity đã chuyển fragment, fix bug
+87d07c3 was StrugVN, 11 days ago, message: Thêm API user info, chuyển toàn tour list, tour history, user info activity -> fragment
+d3f13ee was Trường Nguyễn, 11 days ago, message: Edit màu trong style và hình blank
+af2fcf0 was StrugVN, 11 days ago, message: chỉnh style picker
+4a0a60c was StrugVN, 11 days ago, message: Merge branch 'master' of https://bitbucket.org/danguyen0801/cq2017_32_35_doan
+d6d74cd was StrugVN, 11 days ago, message: Thêm datepicker, timepicker
+7608d9c was Trường Nguyễn, 11 days ago, message: TourInfoActivity
+1498093 was ThuyUyen, 11 days ago, message: merge commit
+960fa4a was ThuyUyen, 11 days ago, message: file response, request, api..
+0db1837 was StrugVN, 11 days ago, message: Thêm trang tour history và bottom nav bar item tương ứng
+e4f56b7 was StrugVN, 11 days ago, message: merge 2 commit trước
+88fac10 was StrugVN, 11 days ago, message: Fix class user + reset mk + tìm user
+5e01835 was ThuyUyen, 12 days ago, message: Tao cac file response, request cua Tour
+3e562e4 was Trường Nguyễn, 12 days ago, message: Layout User Info và update layout tour list
+26e5bbd was ThuyUyen, 12 days ago, message: Update User, searchUserRequest, searchUserResponse, passWordReset,passWordResetRequest
+54c29cc was Trường Nguyễn, 3 weeks ago, message: Update tour view và layout các activity khác
+241a091 was StrugVN, 3 weeks ago, message: Update layout reset password cho phù hợp api, thêm custom alertdialog báo lỗi
+348a992 was ThuyUyen, 3 weeks ago, message: Merge branch 'master' of https://bitbucket.org/danguyen0801/cq2017_32_35_doan
+d9d34e9 was ThuyUyen, 3 weeks ago, message: API Password va cac file request, response, update UserService
+9c350f0 was StrugVN, 3 weeks ago, message: Sửa lấy điểm bđ, kt của create tour
+a1fd0af was StrugVN, 4 weeks ago, message: Thêm bottom nagivator bar
+6d9d961 was StrugVN, 4 weeks ago, message: Thêm layout reset mật khẩu
+7e496c8 was StrugVN, 4 weeks ago, message: Thêm point picker, tìm địa điểm hoạt động, gợi ý tìm địa điểm
+78edbc5 was StrugVN, 4 weeks ago, message: chỉnh tìm địa điểm
+dacbfc8 was StrugVN, 5 weeks ago, message: thêm tìm địa điểm
+cd36bff was StrugVN, 5 weeks ago, message: Thêm Google Map API
+830ebcb was ThuyUyen, 6 weeks ago, message: tạo request, response tour, tạo tour; viết activity, viết API tour
+7a7243f was StrugVN, 6 weeks ago, message: Fix login facebook; Thêm phần lấy tour list; cải tiến login, signup, listview của tour; Fix bugs
+30e99fd was Trường Nguyễn, 6 weeks ago, message: Update SDK tối thiểu + Layout tạo tour + Chỉnh sửa các layout cũ
+e63b0a2 was StrugVN, 7 weeks ago, message: Fix crash + lấy được token của google
+8500a5d was StrugVN, 7 weeks ago, message: Thêm đăng nhập facebook
+7a4b3e0 was StrugVN, 7 weeks ago, message: Thêm đăng nhập google
+a08668a was StrugVN, 7 weeks ago, message: Thêm mục đăng kí và chỉnh sửa. Thêm custom progress dialog
+5224e05 was Trường Nguyễn, 7 weeks ago, message: Tour Adapter
+e3a5627 was Trường Nguyễn, 7 weeks ago, message: Class Tour
+37380ea was Trường Nguyễn, 7 weeks ago, message: Update Sign up Activity
+feeaa24 was Trường Nguyễn, 7 weeks ago, message: Chỉnh sign up activity
+2f27323 was StrugVN, 7 weeks ago, message: Thêm basic login request
+2b800df was Trường Nguyễn, 7 weeks ago, message: Progress Bar
+5775bce was Trường Nguyễn, 7 weeks ago, message: Gói file .java của activity
+2ce93d6 was Trường Nguyễn, 7 weeks ago, message: Chỉnh layout Activity Đăng ký
+8bf2e64 was Trường Nguyễn, 7 weeks ago, message: Layout Forgot Password và liên kết các Activity
+3136153 was Trường Nguyễn, 7 weeks ago, message: Layout Sign UP
+43c03f1 was Trường Nguyễn, 7 weeks ago, message: Project và layout Sign In
+7e04367 was Trường Nguyễn, 7 weeks ago, message: Create README.md
+a1e4e57 was Trường Nguyễn, 7 weeks ago, message: Test git Android Studio
+8e621b8 was Trường Nguyễn, 7 weeks ago, message: Revert "Tạo project và layout cho đăng nhập"
+5540935 was Trường Nguyễn, 7 weeks ago, message: Tạo project và layout cho đăng nhập
+684b8bc was Trường Nguyễn, 3 months ago, message: Update README.md
+64e84f6 was StrugVN, 3 months ago, message: Test
+e7e5c47 was Tran Minh Tri, 3 months ago, message: README.md edited online with Bitbucket
+c93015e was ThuyUyen, 3 months ago, message: update2 information
+b7f74ca was ThuyUyen, 3 months ago, message: update1 information
+6be14aa was ThuyUyen, 3 months ago, message: update information
+4ef3e73 was Dang Thi Thuy Uyen, 3 months ago, message: Initial commit
